@@ -1,0 +1,26 @@
+This folder contains one comma-separated data file:
+
+  fill_levels.csv
+
+This gives data on the concentration (in parts per billion) in the head-space 
+for different volatile organic compounds. The measurements are taken using 
+PTR-MS-ToF, and the experimental setup is that a mass of roast and ground 
+coffee is placed in a glass jar of volume 3.466 litres, and the system is
+allowed time to come close to equilibrium. That is to say, the concentrations 
+relate to late times, when the measured concentration for each chamical
+has reached a plateau value. All data are collected at 20 degrees Celsius, 
+but use different masses of coffee in the jar.
+
+
+Each column from the second onwards has the following format:
+
+  The top row is ithe name of the chemical measured.
+
+  The second row is its molecular mass in Daltons.
+
+  Rows 4 to 12 contain the (near-) equilibrium concentration of the
+  volatile organic compound (in parts per billion, as indicated
+  in row 3).
+
+Column 1 has a different format, with rows 4 to 12 showing the mass of
+roast and ground coffee (in grams) placed in the jar for the experiment.
